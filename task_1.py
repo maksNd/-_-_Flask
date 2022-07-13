@@ -25,4 +25,4 @@ def page_seeyou():
     return "Seeyou"
 
 
-app.run()
+app.run(host='127.0.0.5', port=8888)
